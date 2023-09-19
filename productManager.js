@@ -77,10 +77,10 @@ productos.addProduct("Title1", "Description1", 1000, "Img1", "Abc123", 5);
 productos.addProduct("Title2", "Description2", 2000, "Img2", "Abc123", 10);
 productos.addProduct("Title3", "Description3", 3000, "Img3", "Def456", 20);
 
+
+ 
 /* productos.getProducts(); */
-
-productos.getProductsById(2);
-
+/* productos.getProductsById(2); */
 /* productos.updateProduct({
   title: 'Title3',
   description: 'Description3',
@@ -90,5 +90,4 @@ productos.getProductsById(2);
   stock: 20,
   id: 3
 }); */
-
 /* productos.deleteProductById(2); */
