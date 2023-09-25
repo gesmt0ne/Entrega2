@@ -151,6 +151,6 @@ productos.getProducts();
   id: 3
 }); */
 
-/* productos.deleteProductById(3); */
+/* productos.deleteProductById(2); */
 
 
