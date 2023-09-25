@@ -129,15 +129,16 @@ class ProductManager {
   };
 }
 
-const productos = new ProductManager("./productos.txt");
-
 productos.addProduct("Title1", "Description1", 1000, "Img1", "Abc123", 5);
 productos.addProduct("Title2", "Description2", 2000, "Img2", "Abc123", 10);
 productos.addProduct("Title3", "Description3", 3000, "Img3", "Def456", 20);
 productos.addProduct("Title4", "Description4", 4000, "Img5", "Asd732", 30);
 productos.addProduct("Title4", "Description4", 5000, "Img6", "Fkl920", 40);
 
+const productos = new ProductManager("./productos.txt");
+
 productos.getProducts(); 
+
 
 /* productos.getProductsById(2);  */
 
